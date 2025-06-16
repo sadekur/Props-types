@@ -9,6 +9,8 @@ function App() {
       <User
         name="John Doe"
         age={30}
+        registered={false}
+        languages={['JavaScript', 'Python']}
       />
     </div>
   );
