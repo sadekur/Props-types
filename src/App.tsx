@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import User from './components/User';
 import UserDemo from './components/UserDemo';
+import UseStateType from './components/UseStateType';
 
 function App() {
   // const user1 = {
@@ -38,7 +39,8 @@ function App() {
     <div className="App">
       <h2>User Managment</h2>
       {/* <User user={user1} /> */}
-      <UserDemo users={users} />
+      {/* <UserDemo users={users} /> */}
+      <UseStateType />
     </div>
   );
 }
